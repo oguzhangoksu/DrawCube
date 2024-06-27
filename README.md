@@ -1,4 +1,4 @@
-## **Computer Graphics Homework Project**
+## **Computer Graphics Homework Project: Draw Cube**
 
 ![msedge_oozuBhf24n](https://github.com/oguzhangoksu/DrawCube/assets/70150316/827517a0-7b9a-4b7d-b9dd-2867f9c868ac)
 
