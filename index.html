@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <canvas id="canvas" class="canvas"></canvas>
+
+       
+        <div style="display: inline-block">
+            <strong>Oğuzhan Göksu 190201002</strong>
+            <br>
+            <br>
+            <p class="text"><strong> Ratation Z axis:</strong> LeftArrow, RightArrow</p>
+            <p class="text"><strong> Ratation Y axis:</strong> UpperArrow, DownArrow</p>
+            <p class="text"><strong> Ratation X axis:</strong> Numlock8, Numlock2</p>
+            <p class="text"><strong> Scaling use this Key :</strong> Numlock +, Numlock -</p>
+            <p class="text"><strong> Translation to X axis:</strong> A,D</p>
+            <p class="text"><strong> Translation to Y axis:</strong> W,S</p>
+            <button onclick="handleClick('With Out Hidden Surface')">With Out Hidden Surface</button>
+            <button onclick="handleClick('Backface Culling')">Backface Culling</button>
+            <button onclick="handleClick('Painting Algorithm')">Painting Algorithm</button>
+            <p id="selected" >Selected:With Out Hidden Surface</p>
+        </div>
+        
+
+       
+    </body>
+    <script src="app.js">
+
+    </script>
+</html>
